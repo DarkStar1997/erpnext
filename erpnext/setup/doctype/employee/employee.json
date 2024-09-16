@@ -14,7 +14,7 @@
   "basic_information",
   "employee",
   "naming_series",
-  "first_name",
+  "employee_first_name",
   "middle_name",
   "last_name",
   "employee_name",
@@ -151,12 +151,6 @@
    "oldfieldname": "salutation",
    "oldfieldtype": "Select",
    "options": "Salutation"
-  },
-  {
-   "fieldname": "first_name",
-   "fieldtype": "Data",
-   "label": "First Name",
-   "reqd": 1
   },
   {
    "allow_in_quick_entry": 1,
@@ -817,6 +811,12 @@
    "fieldname": "iban",
    "fieldtype": "Data",
    "label": "IBAN"
+  },
+  {
+   "fieldname": "employee_first_name",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "reqd": 1
   }
  ],
  "icon": "fa fa-user",
@@ -824,7 +824,7 @@
  "image_field": "image",
  "is_tree": 1,
  "links": [],
- "modified": "2024-03-27 13:09:36.900706",
+ "modified": "2024-09-16 22:30:36.687101",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "Employee",
