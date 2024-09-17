@@ -21,7 +21,6 @@
   "column_break_9",
   "gender",
   "date_of_birth",
-  "salutation",
   "column_break1",
   "date_of_joining",
   "image",
@@ -143,14 +142,6 @@
    "oldfieldtype": "Select",
    "options": "HR-EMP-",
    "set_only_once": 1
-  },
-  {
-   "fieldname": "salutation",
-   "fieldtype": "Link",
-   "label": "Salutation",
-   "oldfieldname": "salutation",
-   "oldfieldtype": "Select",
-   "options": "Salutation"
   },
   {
    "fieldname": "first_name",
@@ -824,7 +815,7 @@
  "image_field": "image",
  "is_tree": 1,
  "links": [],
- "modified": "2024-03-27 13:09:36.900706",
+ "modified": "2024-09-17 20:18:22.969254",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "Employee",
